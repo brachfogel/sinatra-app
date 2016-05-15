@@ -1,3 +1,68 @@
-body {
-  background: lightblue;
+img {
+  width: 100%;
+}
+
+h1 {
+  color: navy;
+}
+
+h2 {
+  color: blue;
+}
+li{
+  list-style-type: none;
+}
+div.logo{
+  text-align: center;
+  width: 100%;
+}
+img.logo {
+  width: 200px;
+}
+.question {
+  text-align: center;
+}
+.sommaire ul li{
+  font-weight: bold;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.brach-contener {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+}
+.matrise {
+    width: 33.2%;
+    float: left;
+}
+
+.matrise .img-container {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80% auto;
+    height: 280px;
+}
+.brachvogel{
+      background: url('/img/BRACHFOGEL.jpg');
+}
+.matrice{
+      background: url('/img/Matrise.jpg');
+}
+.logo-brach{
+      background: url('/img/new logo.jpg');
+}
+.matrise p {
+    padding: 19px;
+    text-align: justify;
+}
+@media (max-width: 700px) {
+  .sommaires {
+    width: 100%;
+  }
+  .matrise {
+    width: 100%;
+  }
 }
